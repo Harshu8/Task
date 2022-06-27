@@ -1,3 +1,5 @@
+Ques.1 : What will be the output and why?
+
 const circle = {
   radius: 20,
   diameter() {
@@ -11,5 +13,5 @@ console.log(circle.perimeter());
 
 OUTPUT: 
 
-40
-NaN
+40 (This is because the function is return this.raduis*2 and this.radius=20 that's why the output is 40.)
+NaN (This is because the function is not returning anything.)
