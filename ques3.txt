@@ -1,0 +1,4 @@
+Ques.3 : What is the output of the below code and why?
+          console.log(typeof typeof typeof true);
+          
+Output: Its output is 'string' because the 'typeof true' is return 'boolean' which is a string.
