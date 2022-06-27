@@ -1,0 +1,15 @@
+const circle = {
+  radius: 20,
+  diameter() {
+    return this.radius * 2;
+  },
+  perimeter: () => 2 * Math.PI * this.radius,
+};
+console.log(circle.diameter());
+console.log(circle.perimeter());
+
+
+OUTPUT: 
+
+40
+NaN
